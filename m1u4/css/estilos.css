@@ -1,0 +1,45 @@
+img {
+  padding: 0;
+}
+
+#lista_ol {
+  color: #af3636;
+}
+
+ul {
+  color: #36af64;
+  padding-left: 2rem;
+  background-position: 0 0;
+}
+
+.perfil {
+  margin-right: 30px;
+  color: coral;
+}
+
+p {
+  color: blue;
+  margin: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+/* Enlaces no visitados */
+a:link {
+  color: blue;
+}
+
+/* Enlaces visitados */
+a:visited {
+  color: purple;
+}
+
+/* El usuario esta sobre el enlace */
+a:hover {
+  color: yellow;
+}
+
+/* Enlaces activos */
+a:active {
+  color: lime;
+}
