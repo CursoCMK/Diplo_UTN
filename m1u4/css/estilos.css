@@ -2,6 +2,15 @@ img {
   padding: 0;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-auto-columns: 50px;
+  padding: 10px;
+  text-align: left;
+  grid-auto-rows: 50px;
+}
+
 #lista_ol {
   color: #af3636;
 }
