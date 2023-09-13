@@ -1,0 +1,41 @@
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: start;
+  border: 2px solid #110101;
+  margin: 0 auto;
+  width: 50%;
+  height: 500px;
+  align-items: flex-end;
+}
+
+.item {
+  background-color: #ccc;
+  color: #ccc;
+  width: 200px;
+  height: 100px;
+  margin: 0px;
+  font-size: 20px;
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item:first-child {
+  background-color: red;
+}
+
+.item:nth-child(2) {
+  background-color: blue;
+}
+
+.item:last-child {
+  background-color: green;
+}
+
+h1 {
+  text-align: center;
+}

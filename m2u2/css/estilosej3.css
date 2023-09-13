@@ -1,0 +1,44 @@
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  border: 2px solid #110101;
+  margin: 0 auto;
+  width: auto;
+  height: 200px;
+  align-items: center;
+}
+
+.item {
+  background-color: #ccc;
+  color: #ccc;
+  /* los dos siguientes valores, no se si son correctos como están asignados */
+  width: 200px;
+  height: 100%;
+  font-size: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item:first-child {
+  background-color: red;
+  float: left;
+  margin: 0 1em 0 0;
+}
+
+.item:nth-child(2) {
+  background-color: blue;
+}
+
+.item:last-child {
+  background-color: green;
+  float: right;
+  margin: 0 0 0 1em;
+}
+
+h1 {
+  text-align: center;
+}

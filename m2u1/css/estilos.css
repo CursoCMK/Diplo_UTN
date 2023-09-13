@@ -1,0 +1,75 @@
+img {
+  padding: 0;
+  max-width: 100%;
+  display: block;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-auto-columns: 50px;
+  padding: 10px;
+  text-align: left;
+  grid-auto-rows: 50px;
+}
+
+#lista_ol {
+  color: #af3636;
+}
+
+ul {
+  color: #36af64;
+  padding-left: 2rem;
+  background-position: 0 0;
+}
+
+.perfil {
+  margin-right: 30px;
+  /*color: coral;*/
+  box-shadow: 0 0 10px #af3636;
+  padding: 10px;
+  background: linear-gradient(
+    to bottom,
+    #b4ddb4 0%,
+    #83c783 17%,
+    #52b152 33%,
+    #008a00 67%,
+    #005700 83%,
+    #002400 100%
+  );
+  border-radius: 15px;
+}
+
+.grid-container-p {
+  display: grid;
+  grid-template-rows: auto;
+}
+
+p {
+  color: blue;
+  margin: 30px;
+  font-family: "Roboto", sans-serif; /* no se si esto es correcto */
+  /*font-family: Arial, Helvetica, sans-serif;   usado anteriormente */
+  font-size: 15px;
+  column-gap: 30px;
+}
+
+/* Enlaces no visitados */
+a:link {
+  color: blue;
+}
+
+/* Enlaces visitados */
+a:visited {
+  color: purple;
+}
+
+/* El usuario esta sobre el enlace */
+a:hover {
+  color: yellow;
+}
+
+/* Enlaces activos */
+a:active {
+  color: lime;
+}
