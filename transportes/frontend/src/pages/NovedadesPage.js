@@ -1,6 +1,6 @@
 import React from "react";
 
-//import '../styles/components/pages/NovedadesPage.css';
+//import "../styles/components/pages/NovedadesPage.css";
 
 const NovedadesPage = (props) => {
   return (
