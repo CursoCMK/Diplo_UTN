@@ -1,6 +1,6 @@
 import React from "react";
 
-//import '../../styles/components/layout/Nav.css';
+//import "../../styles/components/layout/Nav.css";
 
 import { Link } from "react-router-dom";
 //import { NavLink } from "react-router-dom";
@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Nav = (props) => {
   return (
     //        <div>Nav</div>
-    <Nav>
+    <nav>
       <div>
         <ul>
           <li>
@@ -25,7 +25,7 @@ const Nav = (props) => {
           </li>
         </ul>
       </div>
-    </Nav>
+    </nav>
 
     /*            <Nav>
             <div>
