@@ -1,0 +1,21 @@
+Notas:
+
+1 - PS F:\Diplo_React\m5u3> npx express-generator --view=hbs
+
+Need to install the following packages:
+express-generator@4.16.1
+Ok to proceed? (y)
+
+2 - PS F:\Diplo_React\m5u3> npm i
+
+3 - PS F:\Diplo_React\m5u3> npm i nodemon
+
+4 - modificar el archivo package.json agregando "start": "nodemon ./bin/www"
+
+5 - PS F:\Diplo_React\m5u3> npm i dotenv
+
+6 - PS F:\Diplo_React\m5u3> npm i mysql
+
+7 - PS F:\Diplo_React\m5u3> npm i util
+
+8 - modificar el archivo app.js agregando  require("dotenv").config();
